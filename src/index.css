@@ -2,3 +2,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.login-show {
+    display: flex;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    z-index: 1000;
+    margin: auto;
+    justify-Content: center;
+    align-Items: center;
+    top: 55%;
+    left: 50%;
+    background-Color: rgb(255, 255, 255);
+}
+.login-hide {
+    display: none;
+    position: fixed;
+}
+

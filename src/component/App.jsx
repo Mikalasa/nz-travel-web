@@ -1,40 +1,45 @@
 //React
-import React from "react";
-import NavBar from "./pages/navBar"
-import Footer from "./pages/footer"
-import Section from "./pages/section";
-import Form from "./pages/form";
-import CustomerReview from "./pages/customerReview";
+import React, {useState}from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import NavBar from "./UI/navBar"
 
-
-//Bootstrap
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-
-
-//custom
-
+//page
+import Home from "./Page/Home";
+import About from "./Page/About";
+import Gallery from "./Page/Gallery";
+import LoginForm from "./UI/LoginForm";
+import Wellington from "./Page/Wellington";
 
 function App() {
+    const [isShow, setIsShow] = useState(false)
+
+    function handleShow() {
+        setIsShow(true)
+    }
+    function handlewHide() {
+        setIsShow(false)
+    }
     return (
-        <Container fluid={"lg"}>
-            <Row>
-                <NavBar />
-            </Row>
-            <Row>
-                <Section />
-            </Row>
-            <Row>
-                <Form />
-            </Row>
-            <Row>
-                <CustomerReview />
-            </Row>
-            <Row>
-                <Footer />
-            </Row>
-        </Container>
+
+        <BrowserRouter>
+            <LoginForm
+                isShow={isShow}
+                handlewHide={handlewHide}
+            />
+            <Routes>
+                <Route path="/" element={
+                    <NavBar
+                        handleShow={handleShow}
+                    />
+                }>
+                    <Route index element={<Home />} />
+                    <Route path="Home" element={<Home />} />
+                    <Route path="Gallery" element={<Gallery />} />
+                    <Route path="Wellington" element={<Wellington />} />
+                    <Route path="About" element={<About />} />
+                </Route>
+            </Routes>
+        </BrowserRouter>
 
     );
 }
