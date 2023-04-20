@@ -2,18 +2,18 @@
 import React from "react";
 //UI
 import Footer from "../UI/footer";
-import WellingtonSection from "../UI/WellingtonSection";
+import QueensTownSection from "../UI/QueensTownSection";
 
 //Bootstrap
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 
 
-function Wellington() {
+function QueensTown() {
     return (
         <Container fluid={"lg"}>
             <Row>
-                <WellingtonSection />
+                <QueensTownSection />
             </Row>
             <Row>
                 <Footer />
@@ -22,4 +22,4 @@ function Wellington() {
     );
 }
 
-export default Wellington;
+export default QueensTown;

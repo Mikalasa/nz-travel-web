@@ -9,6 +9,7 @@ import About from "./Page/About";
 import Gallery from "./Page/Gallery";
 import LoginForm from "./UI/LoginForm";
 import Wellington from "./Page/Wellington";
+import QueensTown from "./Page/QueensTown";
 
 function App() {
     const [isShow, setIsShow] = useState(false)
@@ -36,6 +37,7 @@ function App() {
                     <Route path="Home" element={<Home />} />
                     <Route path="Gallery" element={<Gallery />} />
                     <Route path="Wellington" element={<Wellington />} />
+                    <Route path="QueensTown" element={<QueensTown />} />
                     <Route path="About" element={<About />} />
                 </Route>
             </Routes>

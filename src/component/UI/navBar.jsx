@@ -10,6 +10,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import QueensTown from "../Page/QueensTown";
 
 
 
@@ -35,7 +36,9 @@ function NavBar(props) {
                                 </NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="#action5">
-                                    Queenstown
+                                    <Link className="nav-links" to="/QueensTown">
+                                        <span>QueensTown</span>
+                                    </Link>
                                 </NavDropdown.Item>
                             </NavDropdown>
                             <Link className="nav-links" to="/About">
