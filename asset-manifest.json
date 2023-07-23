@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/nz-travel-web/static/css/main.13c117a2.css",
-    "main.js": "/nz-travel-web/static/js/main.2dc37af1.js",
+    "main.js": "/nz-travel-web/static/js/main.1bc8bb2b.js",
     "static/media/bg2.jpg": "/nz-travel-web/static/media/bg2.f46739c92a18463f84ed.jpg",
     "static/media/bg.jpg": "/nz-travel-web/static/media/bg.c015ce5f72431d0fa569.jpg",
     "index.html": "/nz-travel-web/index.html",
     "main.13c117a2.css.map": "/nz-travel-web/static/css/main.13c117a2.css.map",
-    "main.2dc37af1.js.map": "/nz-travel-web/static/js/main.2dc37af1.js.map"
+    "main.1bc8bb2b.js.map": "/nz-travel-web/static/js/main.1bc8bb2b.js.map"
   },
   "entrypoints": [
     "static/css/main.13c117a2.css",
-    "static/js/main.2dc37af1.js"
+    "static/js/main.1bc8bb2b.js"
   ]
 }
