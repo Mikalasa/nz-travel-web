@@ -33,7 +33,7 @@ function Section() {
 
             <img
                 alt="Student"
-                src="./image/landscape/l2.jpg"
+                src="/image/landscape/l2.jpg"
                 className="h-56 w-full object-cover sm:h-full"
             />
         </section>

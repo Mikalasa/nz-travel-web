@@ -26,7 +26,7 @@ function Picture() {
                 <ul className="grid gap-4 mt-8 sm:grid-cols-3 lg:grid-cols-3">
                     {
                         pics.map((item) => {
-                            let path = "./image/landscape/" + item
+                            let path = "/image/landscape/" + item
                             return (
                                 <li>
                                     <a href="#" className="block overflow-hidden group">

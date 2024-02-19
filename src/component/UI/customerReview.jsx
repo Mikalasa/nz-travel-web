@@ -14,7 +14,7 @@ function CustomerReview() {
                         <div className="flex items-center gap-4">
                             <img
                                 alt="Man"
-                                src="./image/profile/p1.jpg"
+                                src="/image/profile/p1.jpg"
                                 className="h-16 w-16 rounded-full object-cover"
                             />
 
@@ -85,7 +85,7 @@ function CustomerReview() {
                         <div className="flex items-center gap-4">
                             <img
                                 alt="Man"
-                                src="./image/profile/p2.jpg"
+                                src="/image/profile/p2.jpg"
                                 className="h-16 w-16 rounded-full object-cover"
                             />
 

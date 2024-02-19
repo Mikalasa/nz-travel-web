@@ -95,7 +95,7 @@ function Form() {
             <div className="relative h-full w-full sm:h-96 lg:h-full lg:w-1/2">
                 <img
                     alt="Welcome"
-                    src="./image/landscape/l1.jpg"
+                    src="/image/landscape/l1.jpg"
                     className="absolute inset-0 h-100 w-100 object-cover"
                 />
             </div>

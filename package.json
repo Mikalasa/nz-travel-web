@@ -1,7 +1,7 @@
 {
   "name": "nz-travel-web",
   "version": "0.1.0",
-  "homepage": "http://Mikalasa.github.io/nz-travel-web",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@tailwindcss/forms": "^0.5.3",
