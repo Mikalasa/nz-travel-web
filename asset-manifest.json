@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nz-travel-web/static/css/main.13c117a2.css",
-    "main.js": "/nz-travel-web/static/js/main.1bc8bb2b.js",
-    "static/media/bg2.jpg": "/nz-travel-web/static/media/bg2.f46739c92a18463f84ed.jpg",
-    "static/media/bg.jpg": "/nz-travel-web/static/media/bg.c015ce5f72431d0fa569.jpg",
-    "index.html": "/nz-travel-web/index.html",
-    "main.13c117a2.css.map": "/nz-travel-web/static/css/main.13c117a2.css.map",
-    "main.1bc8bb2b.js.map": "/nz-travel-web/static/js/main.1bc8bb2b.js.map"
+    "main.css": "./static/css/main.a0b83351.css",
+    "main.js": "./static/js/main.05dafc6d.js",
+    "static/media/bg2.jpg": "./static/media/bg2.f46739c92a18463f84ed.jpg",
+    "static/media/bg.jpg": "./static/media/bg.c015ce5f72431d0fa569.jpg",
+    "index.html": "./index.html",
+    "main.a0b83351.css.map": "./static/css/main.a0b83351.css.map",
+    "main.05dafc6d.js.map": "./static/js/main.05dafc6d.js.map"
   },
   "entrypoints": [
-    "static/css/main.13c117a2.css",
-    "static/js/main.1bc8bb2b.js"
+    "static/css/main.a0b83351.css",
+    "static/js/main.05dafc6d.js"
   ]
 }
